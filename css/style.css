@@ -58,6 +58,19 @@ section {
 .contact img {
     width: 80%;
 }
+img.facebook, img.instagram {
+    width: 30px;
+}
+.socialM {
+    width: 100px;
+    margin: 10px auto;
+    
+}
+.socialM p{
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
 footer {
     position: absolute;
     width: 100%;
