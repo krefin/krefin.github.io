@@ -55,6 +55,9 @@ section {
 .contact {
     min-height: 800px;
 }
+.contact img {
+    width: 80%;
+}
 footer {
     position: absolute;
     width: 100%;
@@ -65,4 +68,12 @@ footer {
 footer p {
     color: #aaa;
     font-size: 0.9em;
+}
+/* Css icon Google */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
 }
