@@ -40,3 +40,20 @@ $(window).scroll(function(){
         
     }
 });
+
+
+
+
+$(document).on("click", '[data-toggle="lightbox"]', function(event){
+    event.preventDefault();
+    $(this).ekkoLightbox({
+        alwaysShowClose : true
+    });
+  });
+
+
+
+
+// LIGHTBOX
+// const materialbox = document.querySelectorAll('.materialboxed');
+//      M.Materialbox.init(materialbox).onOpenStart;

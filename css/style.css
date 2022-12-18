@@ -21,6 +21,12 @@ body {
 .jumbotron h1, .jumbotron p {
     text-shadow: 1px 1px 10px rgba(0, 0, 0, .5);
 }
+/* nav.navbar {
+    height: 30px;
+}
+ul.nav li a{
+    font-size: 14px;
+} */
 hr {
     width: 250px;
     border-top: 3px solid #999;
@@ -54,6 +60,7 @@ section {
 }
 .contact {
     min-height: 800px;
+    background-color: #fff;
 }
 .contact img {
     width: 80%;
@@ -90,3 +97,6 @@ footer p {
   'GRAD' 0,
   'opsz' 48
 }
+
+
+
